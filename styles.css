@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --background-color:hsl(0, 0%, 8%);
+    --background-card:hsl(0, 0%, 12%);
+    --background-bottom:hsl(0, 0%, 20%);
+    --primaryword-color:hsl(0, 0%, 100%);
+    --secondword-color:hsl(75, 94%, 57%);
+    --font-family: "Inter", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width:400px;
+    margin: auto;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: var(--primaryword-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    background-color: var(--background-card);
+    border-radius: 10px;
+}
+
+img {
+    width: 150px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: auto;
+}
+
+p {
+    color: var(--secondword-color);
+}
+
+h2 {
+    padding: 5px;
+}
+
+h3 {
+    margin: 15px;
+    height: 20px;
+    padding: 15px;
+    background-color: var(--background-bottom);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
